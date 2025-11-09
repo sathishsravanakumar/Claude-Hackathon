@@ -1,30 +1,47 @@
-# AI history tutor
+# 🕰️ ChronosGuru  
+**History Narrated by the People Who Lived It**  
 
-*Automatically synced with your [v0.app](https://v0.app) deployments*
+ChronosGuru transforms the way we learn history by allowing users to *converse* with historical figures.  
+Instead of memorizing dates, students engage in natural conversations — making history **interesting**, **memorable**, and **personally meaningful**.  
+:contentReference[oaicite:1]{index=1}
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://chronosguru.vercel.app/)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/piEuLt7K0Mc)
+---
 
-## Overview
+## 🎯 Problem
+Traditional history education often feels:
+- **Boring**
+- **Lecture-heavy**
+- **Passive**, encouraging memorization instead of understanding  
+:contentReference[oaicite:2]{index=2}
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
+As a result, learners forget the lessons that matter most.
 
-## Deployment
+---
 
-Your project is live at:
+## 💡 Our Solution
+ChronosGuru enables **interactive dialogue** with historical characters, bringing the past to life.
 
-**[https://vercel.com/vishals-projects-aa823dcf/v0-ai-history-tutor](https://chronosguru.vercel.app/))**
+### ✨ Value Proposition:
+| Benefit | Description |
+|--------|-------------|
+| **Interesting** | Turns passive reading into active conversation. :contentReference[oaicite:3]{index=3} |
+| **Memorable** | We remember *stories* and *voices*, not lists of facts. :contentReference[oaicite:4]{index=4} |
+| **Inspiring** | Connects their struggles and triumphs to our own lives. :contentReference[oaicite:5]{index=5} |
 
-## Build your app
+> From **“boring”** to **“inspiring.”**  
+:contentReference[oaicite:6]{index=6}
 
-Continue building your app on:
+---
 
-**[https://v0.app/chat/piEuLt7K0Mc](https://v0.app/chat/piEuLt7K0Mc)**
+## 🛠️ Tech Stack
+| Layer | Technology |
+|------|------------|
+| Frontend | JavaScript, TypeScript, Next.js, Tailwind CSS :contentReference[oaicite:7]{index=7} |
+| LLM / AI | Claude API (LLM) :contentReference[oaicite:8]{index=8} |
+| Audio | Murf + Text-to-Speech (TTS) :contentReference[oaicite:9]{index=9} |
+| Storage | In-memory session storage :contentReference[oaicite:10]{index=10} |
 
-## How It Works
+---
 
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+## 🚀 Live Demo
+[Live Demo](https://chronosguru.vercel.app/)*(Example placeholder)*  
