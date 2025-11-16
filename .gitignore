@@ -1,27 +1,51 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Dependencies
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
 
-# dependencies
-/node_modules
+# Environment files (contain API keys)
+.env
+.env.local
+.env*.local
 
-# next.js
-/.next/
-/out/
+# Build outputs
+.next/
+out/
+dist/
+build/
 
-# production
-/build
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
 
-# debug
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+*.pid
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-.pnpm-debug.log*
 
-# env files
-.env*
+# Uploaded files (user data)
+pitch-deck-debater/uploads/
+pitch-deck-debater/audio_output/
 
-# vercel
-.vercel
+# Next.js
+pitch-deck-debater-next/.next/
+pitch-deck-debater-next/node_modules/
 
-# typescript
-*.tsbuildinfo
-next-env.d.ts
+# Python
+pitch-deck-debater/__pycache__/
+pitch-deck-debater/**/__pycache__/
+*.egg-info/
+
+# Temporary files
+*.tmp
+*.bak

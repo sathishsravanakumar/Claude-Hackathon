@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-beige-100 text-gray-900;
+    background-image: linear-gradient(rgba(245, 245, 220, 0.85), rgba(250, 248, 243, 0.85)),
+      url('https://images.unsplash.com/photo-1557804506-669a67965ba0?w=1920&q=80');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-white/90 backdrop-blur-sm rounded-2xl shadow-glass border border-white/20;
+  }
+
+  .glass-card-blue {
+    @apply bg-gradient-to-br from-primary-50 to-primary-100 backdrop-blur-sm rounded-2xl shadow-glass border-2 border-primary-400/30;
+  }
+
+  .btn-primary {
+    @apply bg-gradient-to-br from-primary-100 to-primary-200 text-primary-600 font-semibold
+           px-8 py-3.5 rounded-xl border-2 border-primary-200
+           shadow-lg hover:shadow-xl hover:from-primary-200 hover:to-primary-300
+           hover:-translate-y-0.5 transition-all duration-300
+           disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:translate-y-0;
+  }
+
+  .info-box {
+    @apply bg-gradient-to-br from-primary-50 to-primary-100 border-2 border-primary-400
+           rounded-xl p-4 shadow-md;
+  }
+
+  .agent-card {
+    @apply glass-card p-4 hover:shadow-card-hover transition-all duration-300 cursor-pointer
+           border-2 border-transparent hover:border-primary-400;
+  }
+
+  .agent-card.selected {
+    @apply border-primary-400 bg-primary-50/50;
+  }
+
+  .tab-button {
+    @apply px-6 py-3 rounded-full font-semibold transition-all duration-300
+           hover:bg-white/60;
+  }
+
+  .tab-button.active {
+    @apply bg-gradient-to-br from-primary-100 to-primary-200 text-primary-600 shadow-md;
+  }
+
+  .tab-button.inactive {
+    @apply bg-white/40 text-gray-600;
+  }
+
+  .badge {
+    @apply inline-block px-3 py-1 rounded-full text-sm font-semibold shadow;
+  }
+
+  .badge-high { @apply bg-red-600 text-white; }
+  .badge-medium { @apply bg-amber-600 text-white; }
+  .badge-low { @apply bg-emerald-700 text-white; }
+}
+
